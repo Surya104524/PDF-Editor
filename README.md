@@ -114,3 +114,94 @@ pdf-editor/
         ├── signatureModal.js # Digital signature drawer (Draw, Type, Upload)
         ├── state.js        # Central application state & history stack (Undo/Redo)
         └── templates.js    # Built-in resume templates & sample datasets
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18.0.0 or later recommended)
+- `npm`, `yarn`, or `pnpm`
+
+### Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/pdf-editor.git
+cd pdf-editor
+npm install
+```
+
+### Development Server
+Run the local development server with Hot Module Replacement (HMR):
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173/`.
+
+### Production Build
+Bundle and optimize for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+Speed up your document workflow with built-in hotkeys:
+
+| Key | Tool / Action |
+| :--- | :--- |
+| <kbd>V</kbd> | Select & Move Tool |
+| <kbd>T</kbd> | Text Box Tool |
+| <kbd>W</kbd> | Whiteout / Redact Tool |
+| <kbd>P</kbd> | Freehand Pen Tool |
+| <kbd>H</kbd> | Highlighter Tool |
+| <kbd>U</kbd> | Shapes & Lines Tool |
+| <kbd>S</kbd> | Digital Signature Modal |
+| <kbd>I</kbd> | Insert Photo / Logo |
+| <kbd>Ctrl</kbd> + <kbd>Z</kbd> | Undo Last Action |
+| <kbd>Ctrl</kbd> + <kbd>Y</kbd> | Redo Last Action |
+| <kbd>Ctrl</kbd> + <kbd>D</kbd> | Duplicate Selected Element |
+| <kbd>Del</kbd> / <kbd>Backspace</kbd> | Delete Selected Element |
+| <kbd>Arrow Keys</kbd> | Nudge Element by 1px (Hold <kbd>Shift</kbd> for 10px) |
+| <kbd>Space</kbd> + <kbd>Click Drag</kbd> | Pan Canvas |
+| <kbd>Ctrl</kbd> + <kbd>Mouse Wheel</kbd> | Zoom In / Out |
+| <kbd>?</kbd> | Show Keyboard Shortcuts Cheatsheet |
+
+---
+
+## 🔒 Privacy & Security
+
+* **100% Client-Side Execution**: All PDF rendering, text parsing, canvas manipulation, and export generation execute entirely within your local web browser.
+* **No Remote Servers**: Your documents, uploaded PDFs, personal resume information, and digital signatures are never transmitted over the internet.
+* **Offline Ready**: Works without an active internet connection once loaded.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
